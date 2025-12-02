@@ -76,3 +76,6 @@ DELETE /items/{item_id}: Eliminar un item.
 
 # 🛡️ Seguridad
 El proyecto implementa seguridad básica mediante Hashing de contraseñas. Las contraseñas nunca se guardan en texto plano en la base de datos; se utiliza el algoritmo Bcrypt antes de almacenarlas.
+
+<img width="2525" height="937" alt="image" src="https://github.com/user-attachments/assets/d2031874-5f64-4354-85e4-d859ea83d475" />
+
