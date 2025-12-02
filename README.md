@@ -1,4 +1,4 @@
-#FastAPI + SQLAlchemy CRUD
+# FastAPI + SQLAlchemy CRUD
 Este proyecto es una API REST completa construida con Python y FastAPI, diseñada para demostrar cómo integrar una base de datos relacional utilizando SQLAlchemy (ORM). Implementa operaciones CRUD (Crear, Leer, Actualizar, Borrar) para gestionar usuarios y elementos, con relaciones entre tablas y hashing de contraseñas.
 
 # 🚀 Tecnologías Utilizadas
