@@ -1,7 +1,7 @@
-FastAPI + SQLAlchemy CRUD
+#FastAPI + SQLAlchemy CRUD
 Este proyecto es una API REST completa construida con Python y FastAPI, diseñada para demostrar cómo integrar una base de datos relacional utilizando SQLAlchemy (ORM). Implementa operaciones CRUD (Crear, Leer, Actualizar, Borrar) para gestionar usuarios y elementos, con relaciones entre tablas y hashing de contraseñas.
 
-🚀 Tecnologías Utilizadas
+# 🚀 Tecnologías Utilizadas
 FastAPI: Framework web moderno y de alto rendimiento para construir APIs.
 
 SQLAlchemy: ORM (Object Relational Mapper) para interactuar con la base de datos usando objetos Python.
@@ -12,7 +12,7 @@ Passlib & Bcrypt: Para el hashing seguro de contraseñas.
 
 SQLite: Base de datos por defecto (fácilmente migrable a PostgreSQL o MySQL).
 
-📂 Estructura del Proyecto
+# 📂 Estructura del Proyecto
 El proyecto sigue una arquitectura modular y escalable:
 
 main.py: Punto de entrada de la aplicación y definición de endpoints (rutas).
@@ -25,7 +25,7 @@ crud.py: Lógica de negocio y operaciones directas a la base de datos.
 
 database.py: Configuración de la conexión a la base de datos (SessionLocal y engine).
 
-🛠️ Instalación y Uso
+* 🛠️ Instalación y Uso
 Clonar el repositorio:
 
 Bash
@@ -38,10 +38,10 @@ Bash
 
 python -m venv venv
 
-# En Windows:
+* En Windows:
 venv\Scripts\activate
 
-# En Mac/Linux:
+* En Mac/Linux:
 source venv/bin/activate
 Instalar dependencias: Asegúrate de instalar las versiones compatibles (especialmente bcrypt):
 
@@ -74,5 +74,5 @@ PUT /items/{item_id}: Actualizar la información de un item.
 
 DELETE /items/{item_id}: Eliminar un item.
 
-🛡️ Seguridad
+# 🛡️ Seguridad
 El proyecto implementa seguridad básica mediante Hashing de contraseñas. Las contraseñas nunca se guardan en texto plano en la base de datos; se utiliza el algoritmo Bcrypt antes de almacenarlas.
